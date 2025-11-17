@@ -1,4 +1,4 @@
-# Environment variables and secrets
+# Ignore Environment Files
 .env
 *.env
 !.env.example
