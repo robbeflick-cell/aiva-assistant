@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIVA - Frontier AI Virtual Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Main Content Area -->
+        <div class="main-content">
+            <div class="header">
+                <h1>Frontier Customer Service Portal</h1>
+                <div class="current-time" id="currentTime"></div>
+            </div>
+            
+            <div class="search-section">
+                <h2>Customer Account Search</h2>
+                <div class="search-form">
+                    <input 
+                        type="text" 
+                        id="btnInput" 
+                        placeholder="Enter 10-digit phone number/BTN/account number"
+                        maxlength="10"
+                        pattern="[0-9]{10}"
+                    />
+                    <button id="searchBtn" onclick="searchCustomer()">Search</button>
+                </div>
+                <div id="errorMessage" class="error-message"></div>
+            </div>
+        </div>
+
+        <!-- AIVA Virtual Assistant -->
+        <div class="aiva-container" id="aivaContainer">
+            <div class="aiva-icon" id="aivaIcon" onclick="toggleAivaPopup()">
+                <img id="aivaImage" src="" alt="AIVA" />
+                <div class="notification-badge" id="notificationBadge" style="display: none;"></div>
+            </div>
+        </div>
+
+        <!-- AIVA Popup -->
+        <div class="aiva-popup" id="aivaPopup" style="display: none;">
+            <div class="popup-header">
+                <h3>AIVA - AI Virtual Assistant</h3>
+                <button class="close-btn" onclick="closeAivaPopup()">×</button>
+            </div>
+            <div class="popup-content" id="popupContent">
+                <!-- Dynamic content will be inserted here -->
+            </div>
+        </div>
+
+        <!-- Overlay -->
+        <div class="overlay" id="overlay" onclick="closeAivaPopup()"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+flask==3.0.0
+flask-cors==4.0.0
+databricks-sql-connector==3.0.0
+requests==2.31.0
+python-dotenv==1.0.0
+Office365-REST-Python-Client==2.5.3
+PyPDF2==3.0.1
