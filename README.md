@@ -9,7 +9,9 @@
 
 ## 📋 Overview
 
-AIVA (AI Virtual Assistant) is an innovative customer service tool designed for Frontier Communications agents. Similar to Microsoft's Clippy but modernized for today's customer service needs, AIVA provides agents with instant access to customer interaction history, account details, and relevant knowledge base articles.
+AIVA (AI Virtual Assistant) is an innovative customer service tool designed for Frontier Communications agents. Similar to Microsoft's Clippy but modernized for today's customer service needs.  It provides quick access to relevant customer information and f(one) articles to help resolve concerns. 
+When integrated with Avaya, it can identify the customer’s current reason for calling and deliver targeted solutions instantly. The goal is to **reduce average handle time (AHT), improve Net Promoter Score (NPS), and lower overall operational costs**.
+
 
 ### Key Features
 
