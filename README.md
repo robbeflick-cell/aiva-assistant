@@ -407,11 +407,12 @@ All styles are in `frontend/styles.css`. Key sections:
 
 This project was created for the Frontier Communications Hackathon. For contributions:
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
-5. Ensure all tests pass
+- Ryan Fields
+- Manar Sarsour
+- Jenny Flynn
+- Robert Flick Bird
+- Matt Fink
+- Padma Maguluri (buddy)
 
 ---
 
